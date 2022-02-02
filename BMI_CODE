@@ -1,0 +1,21 @@
+#--------------BMI CALCULATOR-------------
+
+# 🚨 Don't change the code below 👇
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+#-----Method 2-----
+bmi= int(weight)/float(height)**2
+print(int(bmi))
+
+#------Method 2-------
+new_height=float(height)
+new_weight=float(weight)
+bmi=int(new_weight/new_height**2)
+print(bmi)
+
+#-----Method 3-------
+new_height=float(height)
+new_weight=float(weight)
+final_height=(new_height *new_height)
+print(int(new_weight/final_height))
